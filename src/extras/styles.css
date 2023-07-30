@@ -1,0 +1,59 @@
+/* Estilos para la tarjeta de crédito */
+.tarjeta-credito {
+    width: 400px;
+    max-width: 100%;
+    background-color: #003c71;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .numero-tarjeta {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .chip {
+    width: 70px;
+    height: 50px;
+    background-color: gold;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .marca {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .banco {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .propietario {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .fechas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .fecha-inicio,
+  .fecha-vencimiento {
+    font-size: 14px;
+  }
